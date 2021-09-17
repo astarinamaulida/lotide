@@ -12,16 +12,16 @@ const assertArraysEqual = function(arr1, arr2) {
 };
 
 const eqArrays = function(array1, array2) {
-  if (array1.length !== array2.length){
-    return false
+  if (array1.length !== array2.length) {
+    return false;
   } else {
-  for (let i = 0; i < array2.length; i++) {
-    if (array1[i] !== array2[i]) {
-      return false;
+    for (let i = 0; i < array2.length; i++) {
+      if (array1[i] !== array2[i]) {
+        return false;
+      }
     }
+    return true;
   }
-  return true;
-}
 };
 
 //The function will return a "slice of the array with elements taken from the beginning."
