@@ -26,11 +26,11 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-* `head`: description
-* `tail`: description
-* `middle`: description
-* `countLetters`: description
-* `countOnly`: description
+* `head`: accepts an array and returns the first element of an array
+* `tail`: accepts an array and return the same array without the first element
+* `middle`: accepts an array and return the middle element(s) of the array
+* `countLetters`: accepts a string and return the occurence of the object
+* `countOnly`: accepts an array and return the count of additional  array without the first element
 * `eqArrays`: description
 * `eqObjects`: description
 * `findKey`: description
