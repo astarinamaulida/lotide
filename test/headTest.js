@@ -16,12 +16,12 @@ describe("#head", () => {
     assert.strictEqual(head(['Hello', 'Lighthouse', 'Labs']), 'Hello');
   });
   it("returns undefined for []", () => {
-    assert.strictEqual(head([]), undefined);   
+    assert.strictEqual(head([]), undefined);
   });
   it("returns 10 for [10]", () => {
     assert.strictEqual(head([10]), 10);
   });
-})
+});
 
 //assertEqual(head([5,6,7]), 5); ok
 //assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");

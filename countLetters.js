@@ -1,12 +1,3 @@
-// FUNCTION IMPLEMENTATION
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    console.log(`🎉🎉🎉 Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`😵‍💫😵‍💫😵‍💫 Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
-
 // Function to print occurence of character
 const countLetters = function(array) {
   let str = array.toLowerCase().split(" ").join("");
