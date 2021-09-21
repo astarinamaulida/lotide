@@ -1,20 +1,3 @@
-const eqArrays = function(array1, array2) {
-  for (let i = 0; i < array2.length; i++) {
-    if (array1[i] !== array2[i]) {
-      return false;
-    }
-  }
-  return true;
-};
-
-const assertArraysEqual = function(arr1, arr2) {
-  if (eqArrays(arr1, arr2)) {
-    console.log(`🎉🎉🎉 Assertion Passed: ${arr1} === ${arr2}`);
-  } else {
-    console.log(`😵‍💫😵‍💫😵‍💫 Assertion Failed: ${arr1} !== ${arr2}`);
-  }
-};
-
 const middle = function(array) {
   for (let i = 0; i < array.length; i++) {
     //For arrays with one or two elements, there is no middle. Return an empty array.
@@ -33,8 +16,4 @@ const middle = function(array) {
   }
 };
 
-// TEST CODE
-assertArraysEqual(middle([1, 2, 3, 4]), [2, 3]);
-assertArraysEqual(middle([1, 2, 3]), [2, 3]);
-assertArraysEqual(middle([1]), [1]);
-assertArraysEqual(middle([1, 2]), [1]);
+module.exports = middle;

@@ -1,6 +1,6 @@
-// FUNCTION IMPLEMENTATION
-const assertEqual = require('./assertEqual');
+const assert = require('chai').assert;
 
+// FUNCTION IMPLEMENTATION
 let head = function(array) {
   return array[0];
 };
